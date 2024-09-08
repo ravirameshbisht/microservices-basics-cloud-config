@@ -12,9 +12,9 @@ logging:
   level:
     org.springframework.security: DEBUG
 
-turbine:
-  appConfig: task-webservice
-  clusterNameExpression: "'default'"
+#turbine:
+#  appConfig: task-webservice
+#  clusterNameExpression: "'default'"
 ---
 
 # api-gateway instance when used on Docker
