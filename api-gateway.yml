@@ -44,6 +44,11 @@ security:
     client:
       accessTokenUri: http://localhost:9090/token
       userAuthorizationUri: http://localhost:9090/authorize
+      clientId: acme
+      clientSecret: acmesecret
+      registered-redirect-uri: http://localhost:8765/login
+      pre-established-redirect-uri: http://localhost:8765/login
+      use-current-uri: false
 #    client:
 #      accessTokenUri: http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}/oauth/token
 #      userAuthorizationUri: http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}/oauth/authorize
