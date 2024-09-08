@@ -46,6 +46,8 @@ security:
       userAuthorizationUri: http://localhost:9000/authorize
       clientId: acme
       clientSecret: acmesecret
+      client-id: acme
+      client-secret: acmesecret
       registered-redirect-uri: http://localhost:8765/login
       pre-established-redirect-uri: http://localhost:8765/login
       use-current-uri: false
